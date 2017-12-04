@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540AE3771FD5A85900F5F233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AE3761FD5A85900F5F233 /* AppDelegate.m */; };
+		540AE37A1FD5A85900F5F233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AE3791FD5A85900F5F233 /* ViewController.m */; };
+		540AE37D1FD5A85900F5F233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540AE37B1FD5A85900F5F233 /* Main.storyboard */; };
+		540AE37F1FD5A85900F5F233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540AE37E1FD5A85900F5F233 /* Assets.xcassets */; };
+		540AE3821FD5A85900F5F233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540AE3801FD5A85900F5F233 /* LaunchScreen.storyboard */; };
+		540AE3851FD5A85900F5F233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AE3841FD5A85900F5F233 /* main.m */; };
+		540AE38F1FD5A85900F5F233 /* YZVoiceRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AE38E1FD5A85900F5F233 /* YZVoiceRecorderTests.m */; };
+		540AE39A1FD5A85A00F5F233 /* YZVoiceRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540AE3991FD5A85A00F5F233 /* YZVoiceRecorderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540AE38B1FD5A85900F5F233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540AE36A1FD5A85900F5F233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540AE3711FD5A85900F5F233;
+			remoteInfo = YZVoiceRecorder;
+		};
+		540AE3961FD5A85A00F5F233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540AE36A1FD5A85900F5F233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540AE3711FD5A85900F5F233;
+			remoteInfo = YZVoiceRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540AE3721FD5A85900F5F233 /* YZVoiceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZVoiceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AE3751FD5A85900F5F233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		540AE3761FD5A85900F5F233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		540AE3781FD5A85900F5F233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		540AE3791FD5A85900F5F233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		540AE37C1FD5A85900F5F233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		540AE37E1FD5A85900F5F233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540AE3811FD5A85900F5F233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		540AE3831FD5A85900F5F233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540AE3841FD5A85900F5F233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		540AE38A1FD5A85900F5F233 /* YZVoiceRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZVoiceRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AE38E1FD5A85900F5F233 /* YZVoiceRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZVoiceRecorderTests.m; sourceTree = "<group>"; };
+		540AE3901FD5A85900F5F233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540AE3951FD5A85A00F5F233 /* YZVoiceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZVoiceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AE3991FD5A85A00F5F233 /* YZVoiceRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZVoiceRecorderUITests.m; sourceTree = "<group>"; };
+		540AE39B1FD5A85A00F5F233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540AE36F1FD5A85900F5F233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3871FD5A85900F5F233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3921FD5A85A00F5F233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540AE3691FD5A85900F5F233 = {
+			isa = PBXGroup;
+			children = (
+				540AE3741FD5A85900F5F233 /* YZVoiceRecorder */,
+				540AE38D1FD5A85900F5F233 /* YZVoiceRecorderTests */,
+				540AE3981FD5A85A00F5F233 /* YZVoiceRecorderUITests */,
+				540AE3731FD5A85900F5F233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540AE3731FD5A85900F5F233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540AE3721FD5A85900F5F233 /* YZVoiceRecorder.app */,
+				540AE38A1FD5A85900F5F233 /* YZVoiceRecorderTests.xctest */,
+				540AE3951FD5A85A00F5F233 /* YZVoiceRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540AE3741FD5A85900F5F233 /* YZVoiceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				540AE3751FD5A85900F5F233 /* AppDelegate.h */,
+				540AE3761FD5A85900F5F233 /* AppDelegate.m */,
+				540AE3781FD5A85900F5F233 /* ViewController.h */,
+				540AE3791FD5A85900F5F233 /* ViewController.m */,
+				540AE37B1FD5A85900F5F233 /* Main.storyboard */,
+				540AE37E1FD5A85900F5F233 /* Assets.xcassets */,
+				540AE3801FD5A85900F5F233 /* LaunchScreen.storyboard */,
+				540AE3831FD5A85900F5F233 /* Info.plist */,
+				540AE3841FD5A85900F5F233 /* main.m */,
+			);
+			path = YZVoiceRecorder;
+			sourceTree = "<group>";
+		};
+		540AE38D1FD5A85900F5F233 /* YZVoiceRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				540AE38E1FD5A85900F5F233 /* YZVoiceRecorderTests.m */,
+				540AE3901FD5A85900F5F233 /* Info.plist */,
+			);
+			path = YZVoiceRecorderTests;
+			sourceTree = "<group>";
+		};
+		540AE3981FD5A85A00F5F233 /* YZVoiceRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				540AE3991FD5A85A00F5F233 /* YZVoiceRecorderUITests.m */,
+				540AE39B1FD5A85A00F5F233 /* Info.plist */,
+			);
+			path = YZVoiceRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540AE3711FD5A85900F5F233 /* YZVoiceRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540AE39E1FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorder" */;
+			buildPhases = (
+				540AE36E1FD5A85900F5F233 /* Sources */,
+				540AE36F1FD5A85900F5F233 /* Frameworks */,
+				540AE3701FD5A85900F5F233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZVoiceRecorder;
+			productName = YZVoiceRecorder;
+			productReference = 540AE3721FD5A85900F5F233 /* YZVoiceRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540AE3891FD5A85900F5F233 /* YZVoiceRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540AE3A11FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorderTests" */;
+			buildPhases = (
+				540AE3861FD5A85900F5F233 /* Sources */,
+				540AE3871FD5A85900F5F233 /* Frameworks */,
+				540AE3881FD5A85900F5F233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540AE38C1FD5A85900F5F233 /* PBXTargetDependency */,
+			);
+			name = YZVoiceRecorderTests;
+			productName = YZVoiceRecorderTests;
+			productReference = 540AE38A1FD5A85900F5F233 /* YZVoiceRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		540AE3941FD5A85A00F5F233 /* YZVoiceRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540AE3A41FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorderUITests" */;
+			buildPhases = (
+				540AE3911FD5A85A00F5F233 /* Sources */,
+				540AE3921FD5A85A00F5F233 /* Frameworks */,
+				540AE3931FD5A85A00F5F233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540AE3971FD5A85A00F5F233 /* PBXTargetDependency */,
+			);
+			name = YZVoiceRecorderUITests;
+			productName = YZVoiceRecorderUITests;
+			productReference = 540AE3951FD5A85A00F5F233 /* YZVoiceRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540AE36A1FD5A85900F5F233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Shin;
+				TargetAttributes = {
+					540AE3711FD5A85900F5F233 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					540AE3891FD5A85900F5F233 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 540AE3711FD5A85900F5F233;
+					};
+					540AE3941FD5A85A00F5F233 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 540AE3711FD5A85900F5F233;
+					};
+				};
+			};
+			buildConfigurationList = 540AE36D1FD5A85900F5F233 /* Build configuration list for PBXProject "YZVoiceRecorder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540AE3691FD5A85900F5F233;
+			productRefGroup = 540AE3731FD5A85900F5F233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540AE3711FD5A85900F5F233 /* YZVoiceRecorder */,
+				540AE3891FD5A85900F5F233 /* YZVoiceRecorderTests */,
+				540AE3941FD5A85A00F5F233 /* YZVoiceRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540AE3701FD5A85900F5F233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540AE3821FD5A85900F5F233 /* LaunchScreen.storyboard in Resources */,
+				540AE37F1FD5A85900F5F233 /* Assets.xcassets in Resources */,
+				540AE37D1FD5A85900F5F233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3881FD5A85900F5F233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3931FD5A85A00F5F233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540AE36E1FD5A85900F5F233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540AE37A1FD5A85900F5F233 /* ViewController.m in Sources */,
+				540AE3851FD5A85900F5F233 /* main.m in Sources */,
+				540AE3771FD5A85900F5F233 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3861FD5A85900F5F233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540AE38F1FD5A85900F5F233 /* YZVoiceRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540AE3911FD5A85A00F5F233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540AE39A1FD5A85A00F5F233 /* YZVoiceRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540AE38C1FD5A85900F5F233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540AE3711FD5A85900F5F233 /* YZVoiceRecorder */;
+			targetProxy = 540AE38B1FD5A85900F5F233 /* PBXContainerItemProxy */;
+		};
+		540AE3971FD5A85A00F5F233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540AE3711FD5A85900F5F233 /* YZVoiceRecorder */;
+			targetProxy = 540AE3961FD5A85A00F5F233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		540AE37B1FD5A85900F5F233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540AE37C1FD5A85900F5F233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		540AE3801FD5A85900F5F233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540AE3811FD5A85900F5F233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540AE39C1FD5A85A00F5F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		540AE39D1FD5A85A00F5F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540AE39F1FD5A85A00F5F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540AE3A01FD5A85A00F5F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		540AE3A21FD5A85A00F5F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZVoiceRecorder.app/YZVoiceRecorder";
+			};
+			name = Debug;
+		};
+		540AE3A31FD5A85A00F5F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZVoiceRecorder.app/YZVoiceRecorder";
+			};
+			name = Release;
+		};
+		540AE3A51FD5A85A00F5F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YZVoiceRecorder;
+			};
+			name = Debug;
+		};
+		540AE3A61FD5A85A00F5F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZVoiceRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZVoiceRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YZVoiceRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540AE36D1FD5A85900F5F233 /* Build configuration list for PBXProject "YZVoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AE39C1FD5A85A00F5F233 /* Debug */,
+				540AE39D1FD5A85A00F5F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540AE39E1FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AE39F1FD5A85A00F5F233 /* Debug */,
+				540AE3A01FD5A85A00F5F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540AE3A11FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AE3A21FD5A85A00F5F233 /* Debug */,
+				540AE3A31FD5A85A00F5F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540AE3A41FD5A85A00F5F233 /* Build configuration list for PBXNativeTarget "YZVoiceRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540AE3A51FD5A85A00F5F233 /* Debug */,
+				540AE3A61FD5A85A00F5F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540AE36A1FD5A85900F5F233 /* Project object */;
+}
